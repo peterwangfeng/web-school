@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 1200px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a.active {
+    color: #ac2925;
+    border-bottom: 3px solid #ac2925;
+}
+
+.school-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #ac2925;
+    font-size:30px;
+    font-weight: bold;
+}
+.nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+a:hover {
+    text-decoration: none;
+}
+
+.slgan img{
+    width: 100%;
+}
+h1 {
+    text-align: center;
+}

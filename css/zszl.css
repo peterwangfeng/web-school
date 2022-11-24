@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 1200px;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a.active {
+    color: #ac2925;
+    border-bottom: 3px solid #ac2925;
+}
+
+.school-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #ac2925;
+    font-size:30px;
+    font-weight: bold;
+}
+.nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+
+#carousel-example-generic {
+}
+
+#carousel-example-generic img{
+    width: 100%;
+}
+main {
+    margin-top: 30px;
+}
+.special-course {
+    color: black;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.tskc-1 {
+    display: flex;
+    gap:40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.tskc-1 + .tskc-1 {
+    margin-top: 30px;
+}
+
+.tskc-1>div {
+    flex: 1;
+}
+.tskc-1>div >img {
+    width: 100%;
+    height: 400px;
+}
+
+.jxys-sec {
+    display: flex;
+    gap:40px;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+}
+.jxys-sec>div {
+    flex: 1;
+}
+.jxys-sec>div img {
+    width: 100%;
+    height: 400px;
+}
+.jxys-sec a {
+    width: 200px;
+}
+.jxys-sec button {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background: #c7254e;
+    color: white;
+    font-size: 20px;
+}
+a:hover{
+    text-decoration: none;
+}
+.left {
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    flex:1;
+}
+.right {
+    flex:1;
+}
+pre {
+    font-size: 16px;
+    color: gray;
+}
+
+.zxbm section {
+    display: flex;
+}
+.tj {
+    padding: 10px 20px;
+    border-radius: 6px;
+    border: none;
+    background: #c7254e;
+    color: white;
+    font-size: 20px;
+}
+img {
+    width: 100%;
+    height: calc(100vh - 60px) !important;
+    object-fit: cover;
+}
+.carousel-inner {
+    height: 100vh;
+}
+.item {
+    height: 100vh;
+}

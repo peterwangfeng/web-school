@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    min-width: 1200px;
+    text-align: center;
+}
+a {
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    width: 100px;
+    padding: 10px 0;
+    text-align: center;
+}
+
+a.active {
+    color: #ac2925;
+    border-bottom: 3px solid #ac2925;
+}
+
+.school-header {
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.logo {
+    color: #ac2925;
+    font-size:30px;
+    font-weight: bold;
+}
+.nav {
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+}
+a:hover {
+    text-decoration: none;
+}
+
+img{
+    width: 934px;
+    height: 595px !important;
+}
+h1 {
+    text-align: center;
+}
+input,textarea {
+    border-color: darkgray;
+    outline: none;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    height: 30px;
+}
+
+.right a {
+    display: block;
+    margin: 0;
+    width: 100%;
+}
+.right a {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px 16px 12px 8px;
+    color: #323232;
+    border-bottom: 1px solid #ededed;
+}
